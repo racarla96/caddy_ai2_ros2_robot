@@ -1,0 +1,36 @@
+repositories:
+
+  # ── Robot description & shared parameters ──────────────────────────────────
+  src/caddy_ai2_ros2_description:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_description.git
+    version: b5542cce820980176c7d68ffb5f63372f8533d9f
+
+  # ── Common utilities (SocketCAN, launch helpers) ───────────────────────────
+  src/caddy_ai2_ros2_common:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_common.git
+    version: 2915d5a4771372cc9c2f19f2a573bae34f07d4b0
+
+  # ── Hardware drivers ───────────────────────────────────────────────────────
+  src/caddy_ai2_ros2_control_system_steering_driver:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_control_system_steering_driver.git
+    version: b9e4897b91571b2ca7b50691e95bff7b6e23dc63
+
+  src/caddy_ai2_ros2_control_system_traction_driver:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_control_system_traction_driver.git
+    version: 8804211212a4a444a4f4741d18875148a8bbfea7
+
+  # ── Sensors ────────────────────────────────────────────────────────────────
+  src/caddy_ai2_ros2_sensors_lidar_sick_lms_291:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_sensors_lidar_sick_lms_291.git
+    version: 38091cb7cf2c94c2d116789d25e21b12f93d5360
+
+  # ── Future: bicycle controller (will become common to sim + robot) ─────────
+  # src/caddy_ai2_ros2_control_system_bicycle_controller:
+  #   type: git
+  #   url: https://github.com/racarla96/caddy_ai2_ros2_control_system_bicycle_controller.git
+  #   version: 0a718f92c241eade27e4d2776de34aeb03908977
