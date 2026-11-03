@@ -1,6 +1,6 @@
 # caddy_ai2_ros2_robot
 
-Paquete de integración para el robot agrícola **Caddy AI2** en **hardware real**.  
+Paquete de integración para el carrito de golf eléctrico **Caddy AI2**, plataforma de pruebas de vehículos, en **hardware real**.  
 Este repositorio es el punto de entrada para lanzar el sistema completo sobre el vehículo físico. No contiene lógica propia: orquesta todos los paquetes del ecosistema mediante launch files y configuración centralizada.
 
 **ROS 2:** Jazzy | **Plataforma:** Ubuntu 24.04 | **Proyecto:** CERVAREC
