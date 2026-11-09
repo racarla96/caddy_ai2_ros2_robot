@@ -1,0 +1,8 @@
+[submodule "lowlevel"]
+	path = lowlevel
+	url = git@github.com:racarla96/caddy_ai2_ros2_robot_lowlevel.git
+	branch = jazzy
+[submodule "perception"]
+	path = perception
+	url = git@github.com:racarla96/caddy_ai2_ros2_robot_perception.git
+	branch = jazzy
