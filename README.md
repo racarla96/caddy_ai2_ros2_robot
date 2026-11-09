@@ -42,7 +42,7 @@ Este repositorio es el punto de entrada para lanzar el sistema completo sobre el
 | `caddy_ai2_ros2_control_system_traction_driver` | `jazzy` | HW interface tracción (Curtis CAN) |
 | `caddy_ai2_ros2_bicycle_to_ackermann_steering_adapter` | `jazzy` | Conversión cinemática → steering |
 | `caddy_ai2_ros2_bicycle_to_ackermann_traction_adapter` | `jazzy` | Conversión cinemática → traction |
-| `caddy_ai2_ros2_control_sensors_sbg_ig-500n` | `jazzy` | Driver IMU SBG IG-500N |
+| `caddy_ai2_ros2_control_sensors_sbg_ig_500n` | `jazzy` | Driver IMU SBG IG-500N |
 | `caddy_ai2_ros2_sensors_sick_lms_291` | `jazzy` | Driver LiDAR SICK LMS 291 |
 
 ---
@@ -84,7 +84,7 @@ git clone -b jazzy https://github.com/racarla96/caddy_ai2_ros2_bicycle_to_ackerm
 git clone -b jazzy https://github.com/racarla96/caddy_ai2_ros2_bicycle_to_ackermann_traction_adapter.git
 
 # Sensores
-git clone -b jazzy https://github.com/racarla96/caddy_ai2_ros2_control_sensors_sbg_ig-500n.git
+git clone -b jazzy https://github.com/racarla96/caddy_ai2_ros2_control_sensors_sbg_ig_500n.git
 git clone -b jazzy https://github.com/racarla96/caddy_ai2_ros2_sensors_sick_lms_291.git
 ```
 
@@ -181,7 +181,7 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist \
   - [ ] Incluir `robot_state_publisher` con el URDF de `_description`
   - [ ] Incluir `controller_manager` con los dos hardware interfaces (steering + traction)
   - [ ] Incluir los dos nodos adaptadores bicycle→ackermann
-  - [ ] Incluir driver IMU (`sbg_ig-500n`)
+  - [ ] Incluir driver IMU (`sbg_ig_500n`)
   - [ ] Incluir driver LiDAR (`sick_lms_291`)
 - [ ] Añadir argumento `use_rviz` (default: false en robot real)
 - [ ] Añadir argumento `use_joy` para activar control manual con joystick

@@ -30,10 +30,15 @@
   <exec_depend>forward_command_controller</exec_depend>
 
   <!-- Sensors -->
-  <exec_depend>caddy_ai2_ros2_sensors_lidar_sick_lms_291</exec_depend>
-  <exec_depend>caddy_ai2_ros2_sensors_imu_sbg_ig500n</exec_depend>
+  <exec_depend>caddy_ai2_ros2_sensors_sick_lms_291</exec_depend>
+  <exec_depend>caddy_ai2_ros2_control_sensors_sbg_ig_500n</exec_depend>
   <exec_depend>caddy_ai2_ros2_sensors_navsat_generic</exec_depend>
   <exec_depend>caddy_ai2_ros2_sensors_ydlidar_x4</exec_depend>
+
+  <!-- Control adapters and description publisher (shared with sim) -->
+  <exec_depend>caddy_ai2_ros2_bicycle_to_ackermann_steering_adapter</exec_depend>
+  <exec_depend>caddy_ai2_ros2_bicycle_to_ackermann_traction_adapter</exec_depend>
+  <exec_depend>caddy_ai2_ros2_robot_description_publisher</exec_depend>
 
   <export>
     <build_type>ament_cmake</build_type>

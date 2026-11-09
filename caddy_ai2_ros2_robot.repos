@@ -24,10 +24,41 @@ repositories:
     version: 8804211212a4a444a4f4741d18875148a8bbfea7
 
   # ── Sensors ────────────────────────────────────────────────────────────────
-  src/caddy_ai2_ros2_sensors_lidar_sick_lms_291:
+  src/caddy_ai2_ros2_sensors_sick_lms_291:
     type: git
-    url: https://github.com/racarla96/caddy_ai2_ros2_sensors_lidar_sick_lms_291.git
-    version: 38091cb7cf2c94c2d116789d25e21b12f93d5360
+    url: https://github.com/racarla96/caddy_ai2_ros2_sensors_sick_lms_291.git
+    version: 6ecb2454e0ad0e7a8b9def9245588df4fcf4b827
+
+  src/caddy_ai2_ros2_control_sensors_sbg_ig_500n:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_control_sensors_sbg_ig_500n.git
+    version: e3e297c8aaf355ff1536692ebefcaa561e433feb
+
+  src/caddy_ai2_ros2_sensors_navsat_generic:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_sensors_navsat_generic.git
+    version: 6766b67466f5897da6dc181c1f1aa2481be2747d
+
+  src/caddy_ai2_ros2_sensors_ydlidar_x4:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_sensors_ydlidar_X4.git
+    version: 5d7e23a56bdcedbec8fd29089561ff3c47cdb989
+
+  # ── Control adapters & description publisher (shared with sim) ─────────────
+  src/caddy_ai2_ros2_bicycle_to_ackermann_steering_adapter:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_bicycle_to_ackermann_steering_adapter.git
+    version: 16817c1f276024a5862334b41570db0234f0f525
+
+  src/caddy_ai2_ros2_bicycle_to_ackermann_traction_adapter:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_bicycle_to_ackermann_traction_adapter.git
+    version: 5017987442ce1508ab9da813683da99bf79b4cee
+
+  src/caddy_ai2_ros2_robot_description_publisher:
+    type: git
+    url: https://github.com/racarla96/caddy_ai2_ros2_robot_description_publisher.git
+    version: 334dcf196f6dcbb793344c79420e275461a26357
 
   # ── Future: bicycle controller (will become common to sim + robot) ─────────
   # src/caddy_ai2_ros2_control_system_bicycle_controller:
