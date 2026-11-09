@@ -4,7 +4,7 @@ repositories:
   src/caddy_ai2_ros2_description:
     type: git
     url: https://github.com/racarla96/caddy_ai2_ros2_description.git
-    version: b5542cce820980176c7d68ffb5f63372f8533d9f
+    version: 456b003b220c1be407a141446da8095c9e41928a
 
   # ── Common utilities (SocketCAN, launch helpers) ───────────────────────────
   src/caddy_ai2_ros2_common:
@@ -16,18 +16,18 @@ repositories:
   src/caddy_ai2_ros2_control_system_steering_driver:
     type: git
     url: https://github.com/racarla96/caddy_ai2_ros2_control_system_steering_driver.git
-    version: b9e4897b91571b2ca7b50691e95bff7b6e23dc63
+    version: f662ba6a19f0fd90035089a02d3cf6dadb486344
 
   src/caddy_ai2_ros2_control_system_traction_driver:
     type: git
     url: https://github.com/racarla96/caddy_ai2_ros2_control_system_traction_driver.git
-    version: 8804211212a4a444a4f4741d18875148a8bbfea7
+    version: 53da0390175d40a5c4848433840d7e00a0073b35
 
   # ── Sensors ────────────────────────────────────────────────────────────────
   src/caddy_ai2_ros2_sensors_sick_lms_291:
     type: git
     url: https://github.com/racarla96/caddy_ai2_ros2_sensors_sick_lms_291.git
-    version: 6ecb2454e0ad0e7a8b9def9245588df4fcf4b827
+    version: aa9bee620a0fad35cb74a27aa3be0bfc47053ef0
 
   src/caddy_ai2_ros2_control_sensors_sbg_ig_500n:
     type: git
